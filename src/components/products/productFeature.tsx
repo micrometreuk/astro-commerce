@@ -31,7 +31,6 @@ export default function ProductOverview({
           }
           
           <div className="row">
-            <ProductFeatureDetails featuresDetails={featuresDetails} />
           </div>
         </div>
         <div className="col-12 col-lg-6">
