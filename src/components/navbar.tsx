@@ -17,16 +17,6 @@ const Navbar = () => {
                 All Components
               </a>
             </li>
-            <li className="nav-item dropdown">
-              <a className="nav-link text-dark dropdown-toggle font-weight-bold d-flex align-items-center me-2 " aria-current="page" id="pagesExample" data-bs-toggle="dropdown" aria-expanded="false">
-                Pages
-              </a>
-              <ul className="dropdown-menu" aria-labelledby="pagesExample">
-                <li><a className="dropdown-item" href="/landing/">Landing Page</a></li>
-                <li><a className="dropdown-item" href="/astro-ecommerce/product/">Product Page</a></li>
-                <li><a className="dropdown-item" href="/astro-ecommerce/shopping-cart/">Shopping Cart</a></li>
-              </ul>
-            </li>
             <li className="nav-item">
               <a className="nav-link text-dark font-weight-bold d-flex align-items-center me-2 " aria-current="page" href="https://www.creative-tim.com/learning-lab/astro/overview/astro-ecommerce">
                 Documentation
