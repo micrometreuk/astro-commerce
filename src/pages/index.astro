@@ -5,9 +5,11 @@ import '../../assets/scss/astro-ecommerce.scss';
 import Navbar from '../components/navbar';
 import StoreDoubleColumn from '../components/store/storeDoubleColumn';
 import PromoSectionLarge from '../components/promo/promoSectionLarge';
+const { title } = Astro.props;
+
 ---
 
-<Layout title="Landing Page">
+<Layout title={title}>
 	<main>
     <Navbar />
     <PromoSectionLarge 
@@ -18,10 +20,6 @@ import PromoSectionLarge from '../components/promo/promoSectionLarge';
       pageHeaderRadius="1rem"
     />
     <div class="container my-5">
-      <div class="d-flex justify-content-between align-items-center mb-4">
-        <h4>Shop by category</h4>
-        <a class="text-primary text-sm font-weight-bold" href="#">Browse all categories ></a>
-      </div>
 
 
     <PromoSectionLarge 
