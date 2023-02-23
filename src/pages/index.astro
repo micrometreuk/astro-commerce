@@ -3,6 +3,7 @@ import Layout from '../layouts/Layout.astro';
 import data from '../../public/data.json';
 import '../../assets/scss/astro-ecommerce.scss';
 import Navbar from '../components/navbar';
+
 import PromoSectionLarge from '../components/promo/promoSectionLarge';
 const { title } = Astro.props;
 
@@ -10,7 +11,6 @@ const { title } = Astro.props;
 
 <Layout title={title}>
 	<main>
-    <Navbar />
     <PromoSectionLarge 
       title={"Check out our new collection"}
       full_description={data.products[0].full_description}  
